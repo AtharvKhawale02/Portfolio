@@ -1,0 +1,164 @@
+/* Basic Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    color: #ff9800;
+}
+
+/* Home Section */
+.home-section {
+    background: linear-gradient(to right, #0d3b66, #f5f0e1);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.home-content {
+    max-width: 600px;
+}
+
+.home-section h2 {
+    font-size: 3em; /* Reduced font size */
+    color: #ff9800;
+    margin-bottom: 20px;
+}
+
+.home-paragraph {
+    font-size: 1.5em; /* Adjust font size */
+    color: #f5f0e1; /* Paragraph color */
+    margin-bottom: 20px; /* Space between the paragraph and button */
+}
+
+.highlight-name {
+    font-family: 'Lobster', cursive;
+    font-size: 2.5em; /* Normal size */
+    display: inline; /* Ensures the name is displayed inline */
+}
+
+.home-section .btn {
+    background-color: #ff9800;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.home-section .btn:hover {
+    background-color: #ff5722;
+}
+
+/* About Section */
+.about-section {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+/* Skills Section */
+.skills-section {
+    background: linear-gradient(to right, #0d3b66, #f5f0e1);
+    padding: 70px 0;
+    color: #fff;
+}
+
+.skills-section h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.skill-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill-item {
+    width: 80%;
+    margin: 10px 0;
+}
+
+.progress-bar {
+    background-color: #ddd;
+    border-radius: 5px;
+    height: 25px;
+    margin-top: 10px;
+}
+
+.progress-percentage {
+    text-align: right;
+    font-weight: bold;
+}
+
+/* Contact Section */
+.contact-section {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
+}
